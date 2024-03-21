@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Function to dynamically load products on the Shop page from JSON data
     if (window.location.pathname.endsWith('shop.html')) {
         // This URL will be your GitHub JSON file path
-        const jsonUrl = 'https://raw.githubusercontent.com/yourusername/yourrepo/main/path_to_your_products_json.json';
+        const jsonUrl = 'organized_data.json';
         fetch(jsonUrl)
             .then(response => response.json())
             .then(data => {
