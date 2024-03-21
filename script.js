@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Check if we are on the shop page and load products if we are
     if (window.location.pathname.endsWith('shop.html')) {
         // This URL will be your GitHub JSON file path
-        fetch('https://raw.githubusercontent.com/yourusername/yourrepo/main/path_to_your_products_json.json')
+        fetch('organized_data.json')
             .then(response => response.json())
             .then(data => {
                 // Assuming the JSON data is an array of products
