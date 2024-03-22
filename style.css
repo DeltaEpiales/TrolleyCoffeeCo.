@@ -259,3 +259,575 @@ button:hover, .cta-button:hover {
 }
 
 /* Reuse button styles from earlier */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.shop-main {
+    display: flex;
+    flex-grow: 1;
+}
+
+/* Ensure the sidebar and buttons are visible with basic styling */
+.category-filter {
+    background-color: #f0f0f0; /* Light background for the filter area */
+    padding: 20px;
+    border-right: 1px solid #ccc; /* Adds a subtle border to separate from the product list */
+}
+
+.category-buttons button {
+    display: block; /* Ensures buttons take up the full width of the container */
+    background-color: #ffffff; /* White background for visibility */
+    color: #333333; /* Dark text for contrast */
+    padding: 10px;
+    margin-bottom: 10px; /* Adds space between buttons */
+    border: 1px solid #ddd; /* Adds a subtle border to each button */
+    cursor: pointer;
+    text-align: left;
+}
+
+.category-buttons button:hover {
+    background-color: #eeeeee; /* Slightly darker background on hover for feedback */
+}
+
+/* Add if not present */
+.main {
+    display: flex;
+}
+
+.product-listing {
+    flex-grow: 1; /* Allows the product listing to fill the available space */
+    padding: 20px;
+}
+.footer a {
+    color: #ffffff; /* Sets the link color to white */
+}
+
+.footer a:hover {
+    color: #dddddd; /* Lighter shade on hover for feedback */
+}
+.social-icon {
+    width: 30px; /* Adjusts the width of the icons */
+    height: auto; /* Keeps the aspect ratio intact */
+}
+/* Additional styles for the menu page */
+.menu-page {
+    padding: 40px;
+    text-align: center;
+}
+
+.menu-category {
+    font-size: 24px;
+    margin-top: 30px;
+    color: #1e8c43;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.menu-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.order-button {
+    display: inline-block;
+    background-color: #1e8c43;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-button:hover {
+    background-color: #176a34;
+}
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f6f4;
+    color: #4a4a4a;
+    margin:0;
+    padding:0;
+    overflow-x: hidden; /* Prevent horizontal scroll due to video width */ 
+}
+
+/* ... Previous CSS rules ... */
+
+.cozy {
+    background-color: rgba(248, 246, 244, 1); /* Initial background color */
+    padding: 2rem 1rem; /* Adjust padding for mobile */
+    margin: 0; /* Remove negative margin */
+    background-color: #f8f6f4;
+    padding: 5rem 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cozy-content {
+    max-width: 1200px;
+    margin: 0 auto; /* Center the content horizontally */
+    text-align: center;
+}
+
+.cozy h2 {
+    font-size: 2rem;
+    color: #4a4a4a;
+    margin-bottom: 1rem;
+}
+
+.cozy p {
+    font-size: 1.1rem;
+    color: #6c6c6c;
+    margin-bottom: 2rem;
+}
+
+.contact {
+    background-color: transparent;
+    padding: 4rem 0;
+    margin: 0 auto;
+}
+
+.contact-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 1.5rem;
+}
+
+.contact p {
+    font-size: 1.1rem;
+    color: #000000;
+    margin-bottom: 1.5rem;
+}
+
+.contact a {
+    color: #aa8c67;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact a:hover {
+    color: #876b4f;
+}
+
+.social-icons {
+    margin-top: 1.5rem;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: translateY(-3px);
+}
+
+/* ... Rest of your CSS rules ... */
+
+header {
+    background-color: #00653E;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 2rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ebc89e;
+}
+
+
+
+
+.btn-primary {
+    z-index:1;
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    background-color: #223b2c;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #9fe5a2;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    /* Add the following properties to show the background after the menu section */
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.menu-item {
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.menu-item-dark {
+    background-color: rgba(100, 100, 100, 0.2); /* Slightly transparent gray */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-icon {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover .social-icon {
+    transform: scale(1.1);
+}
+.menu-item-btn {
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    align-items: center;
+    padding-top: 4rem;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(100, 100, 100, 0.2);
+}
+
+
+
+.menu-item img {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.menu-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #4a4a4a;
+}
+
+.menu-item p {
+    font-size: 1rem;
+    color: #6c6c6c;
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #aa8c67;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #ebc89e;
+    color: #4a4a4a;
+    font-size: 0.8rem;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mission {
+    padding-top: 5rem;
+    border-radius: 20px;
+    position: relative;
+    padding: 50px 0; /* Adjust as needed */
+    background-color: #ebc89e; /* Add a solid background color */
+    opacity: 1;
+    margin-top: 10rem;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    margin: 0rem -0rem;
+}
+
+.mission-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f8f6f4;
+    z-index: -1;
+    opacity: 0; /* Start with opacity set to 0 */
+    transition: opacity 0.5s ease; /* Add a transition for opacity */
+}
+
+
+.tracking {
+    background-color: #f8f6f4;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.tracking-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tracking h2 {
+    font-size: 2rem;
+    color: #4a4a4a;
+    margin-bottom: 1.5rem;
+}
+
+#map {
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.mobile-menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end; /* Aligns icon to the right */
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    position: relative; /* Change from 'absolute' to 'relative' */
+    margin-top: 20px; /* Adjust the vertical position as needed */
+    margin-right: 20px; /* Adjust the horizontal position as needed */
+    margin: 0 auto; /* Center the icon horizontally */
+
+}
+
+@media (max-width: 768px) {
+    .mobile-menu-icon {
+        right: 20px; /* Adjust the spacing from the right for mobile devices */
+    }
+}
+
+.mobile-menu-icon .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    transition: 0.4s;
+}
+
+
+/* Add styles to transform the bars into a cross icon when the menu is open */
+.mobile-menu-icon.open .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.mobile-menu-icon.open .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.mobile-menu-icon.open .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Show the mobile menu when it has the 'active' class */
+.mobile-menu-icon-container {
+    position: relative;
+    display: inline-block; /* Display inline to contain only the width of its content */
+}
+
+.mobile-menu.active {
+    display: block;
+    position: absolute;
+    left: -50px;
+    padding: 10px; /* Add padding to the popup menu */
+    top: calc(100% + 50px); /* Adjust the value to control the distance from the icon */
+    background-color: #fff;
+    box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 3;
+    text-align: center; /* Align menu items to the left */
+}
+
+
+/* Hide the mobile menu by default */
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu li {
+        padding: 10px;
+}
+
+/* styles/timeline.css */
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.event {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 1rem 0;
+    position: relative;
+    width: 100%;
+}
+
+.event-date {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+    font-weight: bold;
+    min-width: 70px;
+    text-align: center;
+}
+
+.event-content {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-left: 1rem;
+    position: relative;
+}
+
+.event h2 {
+    margin-top: 0;
+}
+
+.event p {
+    margin: 0;
+}
+
+/* Add this at the end of your styles.css file */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 350px;
+}
+
+.login-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background: #0056b3;
+}

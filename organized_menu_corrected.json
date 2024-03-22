@@ -1,0 +1,69 @@
+{
+    "Hot Coffee / Coco / Cider / Tea": {
+        "12 oz": 3,
+        "16 oz": 4,
+        "20 oz": 5
+    },
+    "Nitro Cold Brew": {
+        "16 oz": 4,
+        "20 oz": 5,
+        "24 oz": 6
+    },
+    "Mocha": {
+        "16 oz": 6,
+        "20 oz": 7,
+        "24 oz": 7,
+        "32 oz": 8,
+        "Flavors (additional)": 1,
+        "Extra Shot": 1
+    },
+    "Latte": {
+        "16 oz": 6,
+        "20 oz": 7,
+        "24 oz": 7,
+        "32 oz": 8,
+        "Flavors (additional)": 1,
+        "Extra Shot": 1
+    },
+    "Lotus Flower Energy (4 Flavors)": {
+        "16 oz": 6,
+        "24 oz": 7,
+        "32 oz": 8,
+        "Extra Shot": 1
+    },
+    "Smoothie/Frappe/Refreshers": {
+        "16 oz": 8,
+        "20 oz": 9,
+        "24 oz": 10
+    },
+    "Signature Drinks 24 oz": {
+        "Yellow Brick Road": 14,
+        "Peanut Butter Cup": 14,
+        "Caf\u00e9 Brul\u00e9": 14,
+        "Coffee Coma": 14,
+        "S'mores": 14,
+        "Altered Reality (The Moya)": 14,
+        "Split Personality": 14
+    },
+    "Snacks and Treats": {
+        "Muffin": 4,
+        "Cheba Cookie": 4,
+        "\"Trolley\" Daily Dozen Donut": 4,
+        "Bagel and Cream Cheese": 5,
+        "3 Pack Mini Croissant with Cream Cheese": 5,
+        "Hot Ham and Cheese Croissant": 6,
+        "Egg Bite Bagel": 6,
+        "Combo with 16 oz Drink": "Discount $2 off drink"
+    },
+    "Beverages": {
+        "Juice": {
+            "Small (12 oz)": 3.5,
+            "Large (16 oz)": 4.5
+        },
+        "Milk": {
+            "Small (12 oz)": 2.5,
+            "Large (16 oz)": 3,
+            "Options": "Regular, Nonfat, Other +$1"
+        }
+    }
+}
